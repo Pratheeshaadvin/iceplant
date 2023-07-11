@@ -1,153 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="16" total="27" passed="10" failed="1" skipped="0">
+<testng-results ignored="16" total="27" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-11T15:33:01 IST" name="Suite" finished-at="2023-07-11T15:34:27 IST" duration-ms="85839">
+  <suite started-at="2023-07-11T16:23:41 IST" name="Suite" finished-at="2023-07-11T16:24:44 IST" duration-ms="63296">
     <groups>
     </groups>
-    <test started-at="2023-07-11T15:33:01 IST" name="Test" finished-at="2023-07-11T15:34:27 IST" duration-ms="85839">
+    <test started-at="2023-07-11T16:23:41 IST" name="Test" finished-at="2023-07-11T16:24:44 IST" duration-ms="63296">
       <class name="com.testcase.Report_Testcase">
-        <test-method signature="report_page()[pri:10, instance:com.testcase.Report_Testcase@795509d9]" started-at="2023-07-11T15:34:26 IST" name="report_page" finished-at="2023-07-11T15:34:27 IST" duration-ms="442" status="PASS">
+        <test-method signature="report_page()[pri:10, instance:com.testcase.Report_Testcase@795509d9]" started-at="2023-07-11T16:24:43 IST" name="report_page" finished-at="2023-07-11T16:24:44 IST" duration-ms="418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report_page -->
       </class> <!-- com.testcase.Report_Testcase -->
       <class name="com.testcase.Testcase_Cusomer_Sales">
-        <test-method signature="customer_page()[pri:1, instance:com.testcase.Testcase_Cusomer_Sales@75d3a5e0]" started-at="2023-07-11T15:33:01 IST" name="customer_page" finished-at="2023-07-11T15:33:07 IST" duration-ms="6371" status="PASS">
+        <test-method signature="customer_page()[pri:1, instance:com.testcase.Testcase_Cusomer_Sales@75d3a5e0]" started-at="2023-07-11T16:23:41 IST" name="customer_page" finished-at="2023-07-11T16:23:47 IST" duration-ms="6503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customer_page -->
       </class> <!-- com.testcase.Testcase_Cusomer_Sales -->
       <class name="com.testcase.Payment_Received_Testcase">
-        <test-method signature="payment_Received_Page()[pri:4, instance:com.testcase.Payment_Received_Testcase@74e28667]" started-at="2023-07-11T15:33:17 IST" name="payment_Received_Page" finished-at="2023-07-11T15:33:43 IST" duration-ms="25963" status="PASS">
+        <test-method signature="payment_Received_Page()[pri:4, instance:com.testcase.Payment_Received_Testcase@74e28667]" started-at="2023-07-11T16:23:57 IST" name="payment_Received_Page" finished-at="2023-07-11T16:24:23 IST" duration-ms="26107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- payment_Received_Page -->
       </class> <!-- com.testcase.Payment_Received_Testcase -->
       <class name="com.testcase.Expense_Testcase">
-        <test-method signature="expense_All_Page()[pri:8, instance:com.testcase.Expense_Testcase@663c9e7a]" started-at="2023-07-11T15:34:21 IST" name="expense_All_Page" finished-at="2023-07-11T15:34:26 IST" duration-ms="5164" status="PASS">
+        <test-method signature="expense_All_Page()[pri:8, instance:com.testcase.Expense_Testcase@663c9e7a]" started-at="2023-07-11T16:24:38 IST" name="expense_All_Page" finished-at="2023-07-11T16:24:43 IST" duration-ms="5142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- expense_All_Page -->
       </class> <!-- com.testcase.Expense_Testcase -->
       <class name="com.testcase.Daybook_Testcase">
-        <test-method signature="daybook_page()[pri:9, instance:com.testcase.Daybook_Testcase@19e4653c]" started-at="2023-07-11T15:34:26 IST" name="daybook_page" finished-at="2023-07-11T15:34:26 IST" duration-ms="309" status="PASS">
+        <test-method signature="daybook_page()[pri:9, instance:com.testcase.Daybook_Testcase@19e4653c]" started-at="2023-07-11T16:24:43 IST" name="daybook_page" finished-at="2023-07-11T16:24:43 IST" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- daybook_page -->
       </class> <!-- com.testcase.Daybook_Testcase -->
       <class name="com.testcase.Item_Testcase">
-        <test-method signature="item_Page()[pri:3, instance:com.testcase.Item_Testcase@7161d8d1]" started-at="2023-07-11T15:33:15 IST" name="item_Page" finished-at="2023-07-11T15:33:17 IST" duration-ms="2673" status="PASS">
+        <test-method signature="item_Page()[pri:3, instance:com.testcase.Item_Testcase@7161d8d1]" started-at="2023-07-11T16:23:55 IST" name="item_Page" finished-at="2023-07-11T16:23:57 IST" duration-ms="2649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- item_Page -->
       </class> <!-- com.testcase.Item_Testcase -->
       <class name="com.testcase.Sign_In_Testcase">
-        <test-method is-config="true" signature="browser_Launch()[pri:0, instance:com.testcase.Sign_In_Testcase@117159c0]" started-at="2023-07-11T15:32:53 IST" name="browser_Launch" finished-at="2023-07-11T15:33:01 IST" duration-ms="7748" status="PASS">
+        <test-method is-config="true" signature="browser_Launch()[pri:0, instance:com.testcase.Sign_In_Testcase@117159c0]" started-at="2023-07-11T16:23:32 IST" name="browser_Launch" finished-at="2023-07-11T16:23:41 IST" duration-ms="8757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser_Launch -->
-        <test-method signature="sign_In_Fun()[pri:0, instance:com.testcase.Sign_In_Testcase@117159c0]" started-at="2023-07-11T15:33:01 IST" name="sign_In_Fun" finished-at="2023-07-11T15:33:01 IST" duration-ms="235" status="PASS">
+        <test-method signature="sign_In_Fun()[pri:0, instance:com.testcase.Sign_In_Testcase@117159c0]" started-at="2023-07-11T16:23:41 IST" name="sign_In_Fun" finished-at="2023-07-11T16:23:41 IST" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sign_In_Fun -->
-        <test-method is-config="true" signature="browser_Quit()[pri:0, instance:com.testcase.Sign_In_Testcase@117159c0]" started-at="2023-07-11T15:34:27 IST" name="browser_Quit" finished-at="2023-07-11T15:34:27 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="browser_Quit()[pri:0, instance:com.testcase.Sign_In_Testcase@117159c0]" started-at="2023-07-11T16:24:44 IST" name="browser_Quit" finished-at="2023-07-11T16:24:44 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser_Quit -->
       </class> <!-- com.testcase.Sign_In_Testcase -->
       <class name="com.testcase.Employee_Testcase">
-        <test-method signature="employee_Page()[pri:5, instance:com.testcase.Employee_Testcase@1cf6d1be]" started-at="2023-07-11T15:33:43 IST" name="employee_Page" finished-at="2023-07-11T15:33:48 IST" duration-ms="5035" status="PASS">
+        <test-method signature="employee_Page()[pri:5, instance:com.testcase.Employee_Testcase@1cf6d1be]" started-at="2023-07-11T16:24:23 IST" name="employee_Page" finished-at="2023-07-11T16:24:28 IST" duration-ms="5064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- employee_Page -->
-        <test-method signature="payment_Deduction()[pri:6, instance:com.testcase.Employee_Testcase@1cf6d1be]" started-at="2023-07-11T15:33:48 IST" name="payment_Deduction" finished-at="2023-07-11T15:34:12 IST" duration-ms="23531" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[@class='select2-selection select2-selection--single'])[2]"}
-  (Session info: chrome=114.0.5735.199)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ecff43d7fed8d7a868152c0d3e5f28f6, findElement {using=xpath, value=(//span[@class='select2-selection select2-selection--single'])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64386}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64386/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ecff43d7fed8d7a868152c0d3e5f28f6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[@class='select2-selection select2-selection--single'])[2]"}
-  (Session info: chrome=114.0.5735.199)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ecff43d7fed8d7a868152c0d3e5f28f6, findElement {using=xpath, value=(//span[@class='select2-selection select2-selection--single'])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64386}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64386/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ecff43d7fed8d7a868152c0d3e5f28f6
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy13.click(Unknown Source)
-at com.testcase.Employee_Testcase.payment_Deduction(Employee_Testcase.java:73)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="payment_Deduction()[pri:6, instance:com.testcase.Employee_Testcase@1cf6d1be]" started-at="2023-07-11T16:24:28 IST" name="payment_Deduction" finished-at="2023-07-11T16:24:29 IST" duration-ms="715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- payment_Deduction -->
-        <test-method signature="pay_Roll()[pri:7, instance:com.testcase.Employee_Testcase@1cf6d1be]" started-at="2023-07-11T15:34:12 IST" name="pay_Roll" finished-at="2023-07-11T15:34:21 IST" duration-ms="8910" status="PASS">
+        <test-method signature="pay_Roll()[pri:7, instance:com.testcase.Employee_Testcase@1cf6d1be]" started-at="2023-07-11T16:24:29 IST" name="pay_Roll" finished-at="2023-07-11T16:24:38 IST" duration-ms="8942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pay_Roll -->
       </class> <!-- com.testcase.Employee_Testcase -->
       <class name="com.testcase.Invoice_Testcase">
-        <test-method signature="invoice_page()[pri:2, instance:com.testcase.Invoice_Testcase@74d1dc36]" started-at="2023-07-11T15:33:07 IST" name="invoice_page" finished-at="2023-07-11T15:33:15 IST" duration-ms="7160" status="PASS">
+        <test-method signature="invoice_page()[pri:2, instance:com.testcase.Invoice_Testcase@74d1dc36]" started-at="2023-07-11T16:23:47 IST" name="invoice_page" finished-at="2023-07-11T16:23:55 IST" duration-ms="7220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invoice_page -->
